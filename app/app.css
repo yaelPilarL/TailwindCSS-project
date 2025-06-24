@@ -1,16 +1,21 @@
 @import "tailwindcss" source(".");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 @theme {
+  --font-family: "Space Grotesk", sans-serif;
+  --text-height-40:40px;
+  --text-height-24:24px;
+  --text-height-32:32px;
 
-  --title-base: 16px;
-  --title-medium: 18px;
-  --title-large: 24px;
-  --title-xlarge: 32px;
-
-  --body-base: 16px;
-  --body-medium: 18px;
-  --body-large: 20px;
-
+  --text-title-base: 16px;
+  --text-title-medium: 18px;
+  --text-title-large: 24px;
+  --text-title-xlarge: 32px;
+  --text-title-height:40px;
+  --text-body-base: 16px;
+  --text-body-medium: 18px;
+  --text-body-large: 20px;
+ 
   --color-primary-1:hsl(332 100% 97%);
   --color-primary-5:hsl(329 100% 89%);
   --color-primary-10:hsl(330 100% 82%);
@@ -46,13 +51,27 @@
   --color-userCompliments-green-30:hsl(130 100% 61%);  
   --color-userCompliments-gold-40:hsl(47 100% 55%);  
 
-  --elevation-4: 0px 4px 0px 0px black;
-  --elevation-6: 0px 6px 0px 0px black;
-  --elevation-8: 0px 8px 0px 0px black;
+  --shadow-elevation-4: 0px 4px 0px 0px black;
+  --shadow-elevation-6: 0px 6px 0px 0px black;
+  --shadow-elevation-8: 0px 8px 0px 0px black;
 
   --icon-size-16:16px;
   --icon-size-24:24px;
   --icon-size-32:32px;
+
+  --p-spacing-1:4px;
+  --p-spacing-2:6px;
+  --p-spacing-3:8px;
+  --p-spacing-4:12px;
+  --p-spacing-5:16px;
+  --p-spacing-6:24px;
+  --p-spacing-7:32px;
+  --p-spacing-8:40px;
+  --p-spacing-9:48px;
+  --p-spacing-10:56px;
+  --p-spacing-11:64px;
+  --p-spacing-12:72px;
+  --p-spacing-13:80px;
 
 }
 
