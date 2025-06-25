@@ -1,8 +1,9 @@
 @import "tailwindcss" source(".");
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 
 @theme {
-  --font-family: "Space Grotesk", sans-serif;
+  --font-family: sans-serif; /* General font family is Space Grotesk */
+
   --text-height-40:40px;
   --text-height-24:24px;
   --text-height-32:32px;
@@ -59,19 +60,19 @@
   --icon-size-24:24px;
   --icon-size-32:32px;
 
-  --p-spacing-1:4px;
-  --p-spacing-2:6px;
-  --p-spacing-3:8px;
-  --p-spacing-4:12px;
-  --p-spacing-5:16px;
-  --p-spacing-6:24px;
-  --p-spacing-7:32px;
-  --p-spacing-8:40px;
-  --p-spacing-9:48px;
-  --p-spacing-10:56px;
-  --p-spacing-11:64px;
-  --p-spacing-12:72px;
-  --p-spacing-13:80px;
+  --spacing-1:4px;
+  --spacing-2:6px;
+  --spacing-3:8px;
+  --spacing-4:12px;
+  --spacing-5:16px;
+  --spacing-6:24px;
+  --spacing-7:32px;
+  --spacing-8:40px;
+  --spacing-9:48px;
+  --spacing-10:56px;
+  --spacing-11:64px;
+  --spacing-12:72px;
+  --spacing-13:80px;
 
 }
 

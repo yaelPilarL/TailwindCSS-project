@@ -1,8 +1,8 @@
 export default function () {
   return (
     <>
-      <div className="mb-3 mt-3 ">
-        <div className="mb-3 flex w-[2115px] h-[350px] text-title-xlarge font-bold ">
+      <div className="mb-9 mt-3">
+        <div className="mb- flex w-[2115px] h-[350px] text-title-xlarge font-bold  ">
           <h1 className="bg-primary-1 w-[235px] h-[350px]  ">1</h1>
           <h1 className="bg-primary-5 w-[235px] h-[350px] ">5</h1>
           <h1 className="bg-primary-10 w-[235px] h-[350px]  ">10</h1>
@@ -14,7 +14,7 @@ export default function () {
           <h1 className="bg-primary-70 text-white w-[235px] h-[350px] ">70</h1>
         </div>
 
-        <div className="mb-3 ">
+        <div className="mb-3 font-family">
           <div className="mb-3 flex w-[2115px] h-[350px] font-bold text-title-xlarge">
             <h1 className="bg-neutral-0 w-[235px] h-[350px] ">0</h1>
             <h1 className="bg-neutral-5 w-[235px] h-[350px] ">5</h1>
