@@ -45,7 +45,11 @@ const stateStyles = {
 };
 
 export function Button({
-  children = "button",
+  children = (
+    <>
+      <span>button</span>
+    </>
+  ),
   variant = "primary",
   className,
   state = "default",
